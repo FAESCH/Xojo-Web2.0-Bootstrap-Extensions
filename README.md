@@ -7,15 +7,18 @@ To add badges to weblabels use the extend-method on weblabel:
 
 ## WebLabel
 `Weblabel.AddBadge(Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)`
+
 ![Badges on Weblabels](_Assets/BadgesOnLabels.jpg)
 
 
 ## WebButton
 `WebButton.AddBadge(Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)`
+
 ![Badges on Weblabels](_Assets/BadgesOnButtons.jpg)
 
 
 ## WebPopupmenu
 `WebPopupmenu.AddBadgeAt(Row as Integer, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)`
+
 ![Badges on Weblabels](_Assets/BadgesOnPopupmenus.jpg)
 
