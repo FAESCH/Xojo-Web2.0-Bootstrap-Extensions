@@ -1,6 +1,12 @@
 #tag Module
 Protected Module BootstrapExtends
 	#tag Method, Flags = &h0
+		Sub AddBadge(Extends b as WebButton, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
+		  b.Caption = b.Caption + " " + CreateBadgeHTML(Text, Indicator)
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
 		Sub AddBadge(Extends l as WebLabel, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
 		  l.Text = l.Text + " " + CreateBadgeHTML(Text, Indicator)
 		End Sub

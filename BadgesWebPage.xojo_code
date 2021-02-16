@@ -24,11 +24,10 @@ Begin WebPage BadgesWebPage
    Title           =   "Badges"
    Top             =   0
    Visible         =   True
-   Width           =   600
+   Width           =   886
    _ImplicitInstance=   False
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebLabel PrimaryLabel
       Bold            =   False
@@ -328,7 +327,7 @@ Begin WebPage BadgesWebPage
       Index           =   -2147483648
       Indicator       =   ""
       Italic          =   False
-      Left            =   294
+      Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -340,14 +339,14 @@ Begin WebPage BadgesWebPage
       Scope           =   0
       TabIndex        =   10
       TabStop         =   True
-      Text            =   "Untitled"
+      Text            =   ""
       TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
-      Top             =   20
+      Top             =   434
       Underline       =   False
       Visible         =   True
-      Width           =   250
+      Width           =   376
       _mPanelIndex    =   -1
    End
    Begin WebLabel SmallLabel
@@ -360,7 +359,7 @@ Begin WebPage BadgesWebPage
       Index           =   -2147483648
       Indicator       =   ""
       Italic          =   False
-      Left            =   294
+      Left            =   490
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -372,14 +371,257 @@ Begin WebPage BadgesWebPage
       Scope           =   0
       TabIndex        =   11
       TabStop         =   True
-      Text            =   "Untitled"
+      Text            =   ""
       TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
-      Top             =   66
+      Top             =   431
       Underline       =   False
       Visible         =   True
-      Width           =   250
+      Width           =   376
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton PrimaryButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   12
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   20
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton SecondaryButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   13
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   66
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton SuccessButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   14
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   112
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton DangerButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   15
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   158
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton WarningButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   16
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   204
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton InfoButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   17
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   250
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton LightButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   18
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   296
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton DarkButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Dark"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   19
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   342
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton LinkButton
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Button"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   0
+      Left            =   703
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      TabIndex        =   20
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   388
+      Visible         =   True
+      Width           =   150
       _mPanelIndex    =   -1
    End
 End
@@ -389,14 +631,14 @@ End
 	#tag Event
 		Sub Opening()
 		  PrimaryLabel.AddBadge("Primary Style", WebUIControl.Indicators.Primary)
-		  PrimaryLabel.AddBadge("Secondary Style", WebUIControl.Indicators.Secondary)
-		  PrimaryLabel.AddBadge("Success Style", WebUIControl.Indicators.Success)
-		  PrimaryLabel.AddBadge("Danger Style", WebUIControl.Indicators.Danger)
-		  PrimaryLabel.AddBadge("Warning Style", WebUIControl.Indicators.Warning)
-		  PrimaryLabel.AddBadge("Info Style", WebUIControl.Indicators.Info)
-		  PrimaryLabel.AddBadge("Light Style", WebUIControl.Indicators.Light)
-		  PrimaryLabel.AddBadge("Dark Style", WebUIControl.Indicators.Dark)
-		  PrimaryLabel.AddBadge("Link Style", WebUIControl.Indicators.Link)
+		  SecondaryLabel.AddBadge("Secondary Style", WebUIControl.Indicators.Secondary)
+		  SuccessLabel.AddBadge("Success Style", WebUIControl.Indicators.Success)
+		  DangerLabel.AddBadge("Danger Style", WebUIControl.Indicators.Danger)
+		  WarningLabel.AddBadge("Warning Style", WebUIControl.Indicators.Warning)
+		  InfoLabel.AddBadge("Info Style", WebUIControl.Indicators.Info)
+		  LightLabel.AddBadge("Light Style", WebUIControl.Indicators.Light)
+		  DarkLabel.AddBadge("Dark Style", WebUIControl.Indicators.Dark)
+		  LinkLabel.AddBadge("Link Style", WebUIControl.Indicators.Link)
 		  
 		  BigLabel.AddBadge("Badges", WebUIControl.Indicators.Primary)
 		  BigLabel.AddBadge("are", WebUIControl.Indicators.Secondary)
@@ -407,6 +649,19 @@ End
 		  SmallLabel.AddBadge("be", WebUIControl.Indicators.Info)
 		  SmallLabel.AddBadge("small", WebUIControl.Indicators.Light)
 		  SmallLabel.AddBadge("too", WebUIControl.Indicators.Dark)
+		  
+		  
+		  
+		  
+		  PrimaryButton.AddBadge("Primary", WebUIControl.Indicators.Primary)
+		  SecondaryButton.AddBadge("Secondary", WebUIControl.Indicators.Secondary)
+		  SuccessButton.AddBadge("Success", WebUIControl.Indicators.Success)
+		  DangerButton.AddBadge("Danger", WebUIControl.Indicators.Danger)
+		  WarningButton.AddBadge("Warning", WebUIControl.Indicators.Warning)
+		  InfoButton.AddBadge("Info", WebUIControl.Indicators.Info)
+		  LightButton.AddBadge("Light", WebUIControl.Indicators.Light)
+		  DarkButton.AddBadge("Dark", WebUIControl.Indicators.Dark)
+		  LinkButton.AddBadge("Link", WebUIControl.Indicators.Link)
 		End Sub
 	#tag EndEvent
 
