@@ -12,6 +12,18 @@ Protected Module BootstrapExtends
 		End Sub
 	#tag EndMethod
 
+	#tag Method, Flags = &h0
+		Sub AddBadgeAt(Extends p as WebPopupMenu, Row as Integer, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
+		  //RowValues cannot be updated, so we create a new one and remove the old one
+		  Var OldValue As String = p.RowValueAt(Row)
+		  Var OldTag As Variant = p.RowValueAt(Row)
+		  
+		  p.AddRowAt(Row, OldValue + " " + CreateBadgeHTML(Text, Indicator))
+		  p.RowTagAt(Row) = OldTag
+		  p.RemoveRowAt(Row+1)
+		End Sub
+	#tag EndMethod
+
 	#tag Method, Flags = &h21
 		Private Function CreateBadgeHTML(Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default) As String
 		  Var HTML As String = "<raw><span class='badge badge-" + WebUIControlIndicator2Text(Indicator)+ "'>" + Text + "</span></raw>"

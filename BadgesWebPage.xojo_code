@@ -624,6 +624,35 @@ Begin WebPage BadgesWebPage
       Width           =   150
       _mPanelIndex    =   -1
    End
+   Begin WebPopupMenu BadgePopupMenu
+      ControlID       =   ""
+      Enabled         =   True
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   ""
+      InitialValue    =   ""
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
+      Left            =   162
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      RowCount        =   0
+      Scope           =   0
+      SelectedRowIndex=   0
+      SelectedRowValue=   ""
+      TabIndex        =   21
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   514
+      Visible         =   True
+      Width           =   150
+      _mPanelIndex    =   -1
+   End
 End
 #tag EndWebPage
 
@@ -662,6 +691,10 @@ End
 		  LightButton.AddBadge("Light", WebUIControl.Indicators.Light)
 		  DarkButton.AddBadge("Dark", WebUIControl.Indicators.Dark)
 		  LinkButton.AddBadge("Link", WebUIControl.Indicators.Link)
+		  
+		  BadgePopupMenu.AddRow("Test")
+		  BadgePopupMenu.AddBadgeAt(0, "test",WebUIControl.Indicators.Primary)
+		  BadgePopupMenu.AddBadgeAt(0, "test2",WebUIControl.Indicators.Secondary)
 		End Sub
 	#tag EndEvent
 
