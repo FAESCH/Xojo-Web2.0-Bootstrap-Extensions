@@ -1,32 +1,39 @@
 #tag Module
 Protected Module BootstrapExtends
 	#tag Method, Flags = &h0
-		Sub AddBadge(Extends b as WebButton, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
-		  b.Caption = b.Caption + " " + CreateBadgeHTML(Text, Indicator)
+		Sub AddBadge(Extends b as WebButton, badgeText as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
+		  b.Caption = b.Caption + " " + CreateBadgeHTML(badgeText, Indicator)
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub AddBadge(Extends l as WebLabel, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
-		  l.Text = l.Text + " " + CreateBadgeHTML(Text, Indicator)
+		Sub AddBadge(Extends l as WebLabel, badgeText as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
+		  l.Text = l.Text + " " + CreateBadgeHTML(badgeText, Indicator)
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub AddBadgeAt(Extends p as WebPopupMenu, Row as Integer, Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
+		Sub AddBadgeAt(Extends w as WebListBox, Row as Integer, Column as Integer, badgeText as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
+		  w.CellValueAt(Row, Column) =  w.CellValueAt(Row, Column) + " " + CreateBadgeHTML(badgeText, Indicator)
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub AddBadgeAt(Extends p as WebPopupMenu, Row as Integer, badgeText as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default)
 		  //RowValues cannot be updated, so we create a new one and remove the old one
 		  Var OldValue As String = p.RowValueAt(Row)
 		  Var OldTag As Variant = p.RowValueAt(Row)
 		  
-		  p.AddRowAt(Row, OldValue + " " + CreateBadgeHTML(Text, Indicator))
+		  p.AddRowAt(Row, OldValue + " " + CreateBadgeHTML(badgeText, Indicator))
 		  p.RowTagAt(Row) = OldTag
 		  p.RemoveRowAt(Row+1)
 		End Sub
 	#tag EndMethod
 
 	#tag Method, Flags = &h21
-		Private Function CreateBadgeHTML(Text as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default) As String
-		  Var HTML As String = "<raw><span class='badge badge-" + WebUIControlIndicator2Text(Indicator)+ "'>" + Text + "</span></raw>"
+		Private Function CreateBadgeHTML(badgeText as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default) As String
+		  Var HTML As String = "<raw><span class='badge badge-" + WebUIControlIndicator2Text(Indicator)+ "'>" + badgeText + "</span></raw>"
 		  Return HTML
 		End Function
 	#tag EndMethod

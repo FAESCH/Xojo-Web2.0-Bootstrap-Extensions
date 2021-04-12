@@ -4,7 +4,7 @@ Begin WebPage BadgesWebPage
    Compatibility   =   ""
    ControlID       =   ""
    Enabled         =   False
-   Height          =   572
+   Height          =   670
    ImplicitInstance=   True
    Index           =   -2147483648
    Indicator       =   0
@@ -50,7 +50,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   0
-      TabStop         =   True
       Text            =   "Primary"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -82,7 +81,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   1
-      TabStop         =   True
       Text            =   "Secondary"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -114,7 +112,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   2
-      TabStop         =   True
       Text            =   "Success"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -146,7 +143,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   3
-      TabStop         =   True
       Text            =   "Danger"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -178,7 +174,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   4
-      TabStop         =   True
       Text            =   "Warning"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -210,7 +205,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   5
-      TabStop         =   True
       Text            =   "Info"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -242,7 +236,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   6
-      TabStop         =   True
       Text            =   "Light"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -274,7 +267,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   7
-      TabStop         =   True
       Text            =   "Dark"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -306,7 +298,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   8
-      TabStop         =   True
       Text            =   "Link"
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -338,7 +329,6 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   10
-      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       TextColor       =   &c00000000
@@ -359,7 +349,7 @@ Begin WebPage BadgesWebPage
       Index           =   -2147483648
       Indicator       =   ""
       Italic          =   False
-      Left            =   490
+      Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -370,15 +360,14 @@ Begin WebPage BadgesWebPage
       Multiline       =   False
       Scope           =   0
       TabIndex        =   11
-      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
-      Top             =   431
+      Top             =   480
       Underline       =   False
       Visible         =   True
-      Width           =   376
+      Width           =   351
       _mPanelIndex    =   -1
    End
    Begin WebButton PrimaryButton
@@ -401,7 +390,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   12
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   20
       Visible         =   True
@@ -428,7 +416,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   13
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   66
       Visible         =   True
@@ -455,7 +442,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   14
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   112
       Visible         =   True
@@ -482,7 +468,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   15
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   158
       Visible         =   True
@@ -509,7 +494,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   16
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   204
       Visible         =   True
@@ -536,7 +520,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   17
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   250
       Visible         =   True
@@ -563,7 +546,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   18
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   296
       Visible         =   True
@@ -590,7 +572,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   19
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   342
       Visible         =   True
@@ -617,7 +598,6 @@ Begin WebPage BadgesWebPage
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   20
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   388
       Visible         =   True
@@ -633,7 +613,7 @@ Begin WebPage BadgesWebPage
       InitialValue    =   ""
       LastAddedRowIndex=   0
       LastRowIndex    =   0
-      Left            =   162
+      Left            =   524
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -646,11 +626,44 @@ Begin WebPage BadgesWebPage
       SelectedRowIndex=   0
       SelectedRowValue=   ""
       TabIndex        =   21
-      TabStop         =   True
       Tooltip         =   ""
-      Top             =   514
+      Top             =   407
       Visible         =   True
       Width           =   150
+      _mPanelIndex    =   -1
+   End
+   Begin WebListBox BadgeListBox
+      ColumnCount     =   3
+      ColumnWidths    =   ""
+      ControlID       =   ""
+      Enabled         =   True
+      HasHeader       =   True
+      Height          =   169
+      HighlightSortedColumn=   True
+      Index           =   -2147483648
+      Indicator       =   ""
+      InitialValue    =   ""
+      LastAddedRowIndex=   0
+      Left            =   379
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      NoRowsMessage   =   ""
+      RowCount        =   0
+      RowSelectionType=   1
+      Scope           =   0
+      SearchCriteria  =   ""
+      SelectedRowColor=   &c0272D300
+      SelectedRowIndex=   0
+      TabIndex        =   22
+      Tooltip         =   ""
+      Top             =   480
+      Visible         =   True
+      Width           =   342
       _mPanelIndex    =   -1
    End
 End
@@ -695,6 +708,20 @@ End
 		  BadgePopupMenu.AddRow("Test")
 		  BadgePopupMenu.AddBadgeAt(0, "test",WebUIControl.Indicators.Primary)
 		  BadgePopupMenu.AddBadgeAt(0, "test2",WebUIControl.Indicators.Secondary)
+		  
+		  BadgeListBox.AddRow("This", "is a", "Listbox")
+		  BadgeListBox.AddRow("with", "badges", "in it")
+		  
+		  BadgeListBox.AddBadgeAt(0,0, "1", WebUIControl.Indicators.Primary)
+		  BadgeListBox.AddBadgeAt(0,1, "2", WebUIControl.Indicators.Secondary)
+		  BadgeListBox.AddBadgeAt(0,2, "3", WebUIControl.Indicators.Success)
+		  BadgeListBox.AddBadgeAt(1,0, "4", WebUIControl.Indicators.Danger)
+		  BadgeListBox.AddBadgeAt(1,1, "5", WebUIControl.Indicators.Warning)
+		  BadgeListBox.AddBadgeAt(1,2, "6", WebUIControl.Indicators.Info)
+		  
+		  
+		  
+		  
 		End Sub
 	#tag EndEvent
 
