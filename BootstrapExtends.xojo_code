@@ -33,7 +33,7 @@ Protected Module BootstrapExtends
 
 	#tag Method, Flags = &h21
 		Private Function CreateBadgeHTML(badgeText as String, Indicator as WebUIControl.Indicators = WebUIControl.Indicators.Default) As String
-		  Var HTML As String = "<raw><span class='badge badge-" + WebUIControlIndicator2Text(Indicator)+ "'>" + badgeText + "</span></raw>"
+		  Var HTML As String = "<raw><span class='badge bg-" + WebUIControlIndicator2Text(Indicator)+ "'>" + badgeText + "</span></raw>"
 		  Return HTML
 		End Function
 	#tag EndMethod
